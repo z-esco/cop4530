@@ -1,8 +1,0 @@
-Parse:
-    My parse sections were O(n) each because they hit each character once. That means that in total, the parse section was complexity 3n.
-
-Sort:
-    The soring algorithm was of time complexity O(nlogn). It is essentially a selection sort. Not ideal but I wanted to play it safe. The total sort of each will total something around O(2nlogn) because not every character needs to be sorted 3 times.
-
-Print:
-    Using linked lists, everything is printed in about O(2n) because not everything is printed multiple times.
