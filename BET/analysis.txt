@@ -1,1 +1,0 @@
-My makeEmpty(BinaryNode* &t) function has time complexity O(2). I simply created a new empty node and copied it to t. I am not sure if the lazy deletion was acceptable but it was by far the simplestt way to go. 
